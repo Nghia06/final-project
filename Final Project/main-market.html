@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonsai Market</title>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="main-market.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="market-container">
+        <div class="market-navbar">
+            <div class="market-info">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="" class="products-btn">Products</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+                <ul class="float-right">
+                    <li><a href="account-info.html">Account</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="market-container-2">
+            <div class="market-title">
+                <h1>Welcome to the <br>Bonsai Market </br> </h1>
+                <p>A place to buy your favourite Bonsai</p>
+            </div>
+        </div>
+    </div>
+    <!-- Product -->
+    <h2 class="market-heading">Bonsai</h2>
+    <div class="carousel products-carousel" data-flickity='{"autoPlay": true , "wrapAround": true}'>
+        
+    </div>
+    <!-- Bonsai of the Day -->
+    <div class="market-container-3">
+        <div class="market-title-2">
+            <h1>Tips on taking care of your bonsai</h1>
+<div class="market-info">
+    <ol class="market-info">
+        
+        <li style="margin-left:4.0rem"> Keep your bonsai away from direct heat.  </li>
+        <li style="margin-top: 12.5rem;margin-left: 1.25rem;">Put your bonsai in place with plenty of sunlight.</li>
+        <li>Bonsais need humidity to keep their soil moist.</li>
+        </ol>
+        </div>
+    </div>
+</div>
+
+<p class="thanks">Thank you for choosing us!</p>
+<!-- Checkout -->
+
+    <div class="cd-cart cd-cart--empty js-cd-cart">
+        <a href="#0" class="cd-cart__trigger text-replace">
+            Cart
+            <ul class="cd-cart__count">
+                <!-- cart items count -->
+                <li>0</li>
+                <li>0</li>
+            </ul> <!-- .cd-cart__count -->
+        </a>
+        <div class="cd-cart__content">
+            <div class="cd-cart__layout">
+                <header class="cd-cart__header">
+                    <h2>Cart</h2>
+                    <span class="cd-cart__undo">Item removed. <a href="#0">Undo</a></span>
+                </header>
+                <div class="cd-cart__body">
+                    <ul>
+                        <!-- products added to the cart will be inserted here using JavaScript -->
+                    </ul>
+                </div>
+                <footer class="cd-cart__footer">
+                    <a href="checkout.html" class="cd-cart__checkout">
+                        <em>Checkout - $<span>0</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="24px" height="24px" viewBox="0 0 24 24">
+                                <line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-miterlimit="10" x1="3" y1="12" x2="21" y2="12" />
+                                <polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-miterlimit="10" points="
+               15,6 21,12 15,18 " />
+                            </svg>
+                        </em>
+                    </a>
+                </footer>
+            </div>
+        </div> <!-- .cd-cart__content -->
+    </div> <!-- cd-cart -->
+
+    <footer>
+
+    </footer>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="main-market.js"></script>
+    <script src="cart.js"></script>
+    <script src="util.js"></script>
+    <script src="https://kit.fontawesome.com/1c7f80c938.js" crossorigin="anonymous"></script>
+</body>
+</html>
