@@ -14,6 +14,10 @@ if (products.length > 0) {
     })
     .join('\n');
   cart.innerHTML = htmls;
+  document.querySelector('.total').innerText = `${products.reduce(
+    (sum, product) => sum + Number(product.price),
+    0
+  )} $`;
 } else {
   window.open('/main-market.html');
 }
