@@ -1,125 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="checkout.css">
-    
-</head>
-<body>
+    <link rel="stylesheet" href="checkout.css" />
+  </head>
+  <body>
     <div class="container">
-        <form action="">
-    
-            <div class="row">
-    
-                <div class="col">
-    
-                    <h3 class="title">billing address</h3>
-    
-                    <div class="inputBox">
-                        <span>full name :</span>
-                        <input type="text" >
-                    </div>
-                    <div class="inputBox">
-                        <span>email :</span>
-                        <input type="email">
-                    </div>
-                    <div class="inputBox">
-                        <span>address :</span>
-                        <input type="text" >
-                    </div>
-                    <div class="inputBox">
-                        <span>city :</span>
-                        <input type="text" >
-                    </div>
-    
-                    <div class="flex">
-                        <div class="inputBox">
-                            <span>state :</span>
-                            <input type="text" >
-                        </div>
-                        <div class="inputBox">
-                            <span>zip code :</span>
-                            <input type="text" >
-                        </div>
-                    </div>
-    
-                </div>
-    
-                <div class="col">
-    
-                    <h3 class="title">payment</h3>
-                    <div class="inputBox">
-                        <span>name on card :</span>
-                        <input type="text" >
-                    </div>
-                    <div class="inputBox">
-                        <span>credit card number :</span>
-                        <input type="text" >
-                    </div>
-                    <div class="inputBox">
-                        <span>exp month :</span>
-                        <input type="text">
-                    </div>
-    
-                    <div class="flex">
-                        <div class="inputBox">
-                            <span>exp year :</span>
-                            <input type="number" >
-                        </div>
-                        <div class="inputBox">
-                            <span>CVV :</span>
-                            <input type="text">
-                        </div>
-                    </div>
-    
-                </div>
-        
+      <form action="">
+        <div class="row">
+          <div class="col">
+            <h3 class="title">billing address</h3>
+
+            <div class="inputBox">
+              <span>full name :</span>
+              <input type="text" />
             </div>
-    
-            <input type="submit" value="proceed to checkout" class="submit-btn">
-    
-        </form>
-        <div class="cd-cart cd-cart--empty js-cd-cart cd-cart--open" >
-            <a href="#0" class="cd-cart__trigger text-replace">
-                Cart
-                <ul class="cd-cart__count">
-                    <!-- cart items count -->
-                    <li>0</li>
-                    <li>0</li>
-                </ul> <!-- .cd-cart__count -->
-            </a>
-            <div class="cd-cart__content">
-                <div class="cd-cart__layout">
-                    <header class="cd-cart__header">
-                        <h2>Cart</h2>
-                        <span class="cd-cart__undo">Item removed. <a href="#0">Undo</a></span>
-                    </header>
-                    <div class="cart">
-                        <ul>
-                            <!-- products added to the cart will be inserted here using JavaScript -->
-                        </ul>
-                    </div>
-                    <footer class="cd-cart__footer">
-                        <a href="checkout.html" class="cd-cart__checkout">
-                            <em>Checkout - $<span>0</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    width="24px" height="24px" viewBox="0 0 24 24">
-                                    <line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" stroke-miterlimit="10" x1="3" y1="12" x2="21" y2="12" />
-                                    <polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" stroke-miterlimit="10" points="
-                   15,6 21,12 15,18 " />
-                                </svg>
-                            </em>
-                        </a>
-                    </footer>
-                </div>
-            </div> <!-- .cd-cart__content -->
-        </div> <!-- cd-cart -->
-    </div>    
-   <script src="checkout.js"></script>
-</body>
+            <div class="inputBox">
+              <span>email :</span>
+              <input type="email" />
+            </div>
+            <div class="inputBox">
+              <span>address :</span>
+              <input type="text" />
+            </div>
+            <div class="inputBox">
+              <span>city :</span>
+              <input type="text" />
+            </div>
+
+            <div class="flex">
+              <div class="inputBox">
+                <span>state :</span>
+                <input type="text" />
+              </div>
+              <div class="inputBox">
+                <span>zip code :</span>
+                <input type="text" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <h3 class="title">payment</h3>
+            <div class="inputBox">
+              <span>name on card :</span>
+              <input type="text" />
+            </div>
+            <div class="inputBox">
+              <span>credit card number :</span>
+              <input type="text" />
+            </div>
+            <div class="inputBox">
+              <span>exp month :</span>
+              <input type="text" />
+            </div>
+
+            <div class="flex">
+              <div class="inputBox">
+                <span>exp year :</span>
+                <input type="number" />
+              </div>
+              <div class="inputBox">
+                <span>CVV :</span>
+                <input type="text" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <input type="submit" value="proceed to checkout" class="submit-btn" />
+      </form>
+      <div class="cart">
+        <h1>Your cart</h1>
+        <div></div>
+      </div>
+    </div>
+    <script src="checkout.js"></script>
+  </body>
 </html>
