@@ -36,7 +36,7 @@
   align-items: center;
   padding: 25px;
   min-height: 100vh;
-  background: linear-gradient(90deg, #2ecc71 60%, #27ae60 40.1%);
+  background: linear-gradient(90deg, #2ecc71 69.7%, #27ae60 40.1%);
 }
 
 .container form {
@@ -93,11 +93,6 @@
   margin-top: 5px;
 }
 
-.container form .row .col .inputBox img {
-  height: 34px;
-  margin-top: 5px;
-  filter: drop-shadow(0 0 1px #000);
-}
 
 .container form .submit-btn {
   width: 100%;
@@ -113,9 +108,11 @@
   background: #2ecc71;
 }
 
+
+
 .cart {
   position: fixed;
-  top: 100px;
+  top: 25px;
   left: 900px;
   min-width: 300px;
   max-height: 400px;
@@ -138,12 +135,14 @@
   border-radius: 2px;
   margin-right: 20px;
 }
+
 .cart p {
   display: inline-block;
   margin-left: 5px;
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 18px;
+  
 }
 
 .price {
