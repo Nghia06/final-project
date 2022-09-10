@@ -65,9 +65,9 @@ button{
   border: 1px solid transparent;
   outline: none;
   cursor: pointer;
-  background: green;
+  background: rgb(0,170,0);
   overflow: hidden;
-  transition: 0.6s;
+  transition: all 0.3s ease 0s;
   
 }
 button:first-child{

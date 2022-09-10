@@ -33,6 +33,7 @@
     padding:0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -189,13 +190,13 @@ body{
     border: none;
     border-radius: 6px;
     padding:10px;
-   background-color: rgb(0,150,0);
+   background-color: rgba(0,180,0,1);
    background-size: 200%;
-   transition:0.6s;
+   transition:all 0.3s ease 0s;
    
 }
 .carousel-caption button:hover{
-  background-color:rgb(0,200,0);
+  background-color:rgba(0,200,0,0.5);
 }
 .market-title-2 {
 background: #BFD2C9;
@@ -266,7 +267,8 @@ display:flex
 font-size:1.5rem;
 margin-left:28rem;
 text-decoration: none;
-color:blue
+color:blue;
+transition:all 0.3s ease 0s;
   }
 
   .contact-2 a:hover {
